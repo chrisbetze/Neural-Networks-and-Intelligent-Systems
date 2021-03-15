@@ -10,3 +10,21 @@ A TFRecord is when a sequence of records serializes to binary. The binary format
 [Protocol buffers](https://developers.google.com/protocol-buffers/) are a cross-platform, cross-language library for efficient serialization of structured data.
 ## Network models
 ### "From scratch"
+We develop three simple Convolutional Neural Networks "From Scratch" based on "LeNet".
+### Transfer Learning
+We use transfer learning of TensorFlow 2 from a pre-trained network. Specifically, we use [tf.keras.applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications), which provides pre-trained models from Keras such us: VGG16, MobileNetV2, ResNet50, VGG19, Xception, DenseNet121, EfficientNetB7 and InceptionV3.
+## Criteria - Μetrics
+In order to choose which model we proceed in the optimization phase, we examine the above models based on following:
+* Memory Usage
+* Trainable Parameters
+* Training Time
+* Accuracy
+## Optimization - Preprocessing
+We improve the classification results, experimenting with some techniques and parameters:
+* Data augmentation (Rotation, Flip, Zoom, Contrast, etc)
+* Size of input image (32x32, 96x96, 128x128, etc)
+* Freezing / Unfreezing layers
+* Dropout (regularization)
+* Parameters such us learning rate, batch size, optimizers
+## Results
+The final optimal network model resulted from the pre-trained model DenseNet121. This is a network in which, each layer is connected to all the followings. After the preprocessing and the optimization, we achieve an accuracy of 92% in 20 classes and 84% in 80 classes.
