@@ -13,7 +13,7 @@ We compare two scikit-learn classifiers: Gaussian Naive Bayes, kNN
 ### Optimization
 Fine tuning using Pipeline, GridSearch and Cross-validation techniques. Pipeline steps are PCA, Variance Threshold Selector, Standard Scaler and Random Over Sampler.
 ### Results
-We achieve an accuracy of 92%. 
+We achieve an accuracy of 92% using kNN. 
 ## Dataset 2: Statlog (Landsat Satellite) Data Set
 ### Information
 The database consists of the multi-spectral values of pixels in 3x3 neighbourhoods in a satellite image, and the classification associated with the central pixel in each neighbourhood. 
