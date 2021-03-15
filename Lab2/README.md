@@ -9,7 +9,7 @@ Consists of 42,306 movie plot summaries extracted from Wikipedia and aligned met
 ### Discription - Steps
 * Convert corpus to TF-IDF representation. (Term Frequency–Inverse Document Frequency is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.)
 * Remove common words, pronouns, articles, names etc.
-* Natural Language Processing
+* Natural Language Processing (NLP)
 * Stemming and Lemmatization techniques with Porter, Lancaster και Snowball.
 
 ### Example result
