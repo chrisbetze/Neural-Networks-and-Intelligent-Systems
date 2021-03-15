@@ -12,7 +12,7 @@ For more info click [here](https://archive.ics.uci.edu/ml/datasets/Japanese+Cred
 ### Classification
 We compare two scikit-learn classifiers: Gaussian Naive Bayes, kNN
 ### Optimization
-Fine tuning using Pipeline, GridSearch and Cross-validation techniques. Pipeline steps are PCA, Variance Threshold Selector, Standard Scaler and Random Over Sampler.
+Fine tuning using Pipeline, GridSearch and Cross-validation techniques. Pipeline steps are PCA, Variance Threshold Selector, Standard Scaler, Random Over Sampler and Hyperparameters of kNN.
 ### Results
 We achieve an accuracy of 92% using kNN. 
 ## Dataset 2: Statlog (Landsat Satellite) Data Set
@@ -36,6 +36,6 @@ No missing values and all features are numeric.
 ### Classification
 We compare different scikit-learn classifiers: Gaussian Naive Bayes, kNN, Multi-Layer Perceptron (MLP), Support Vector Machines (SVM)
 ### Optimization
-Fine tuning using Pipeline, GridSearch and Cross-validation techniques. Pipeline steps are PCA, Variance Threshold Selector, Standard Scaler and Random Over Sampler.
+Fine tuning using Pipeline, GridSearch and Cross-validation techniques. Pipeline steps are PCA, Variance Threshold Selector, Standard Scaler, Random Over Sampler and Hyperparameters of kNN, MLP, and SVM.
 ### Results
 We achieve an accuracy of 90% using MLP.
