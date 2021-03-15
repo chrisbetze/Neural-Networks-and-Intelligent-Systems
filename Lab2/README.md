@@ -4,7 +4,7 @@ Based on what user like, the algorithm will simply pick items with similar conte
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/50949470/111079410-97508f00-8502-11eb-9dc5-4d55c79ff454.png)
 
 ### Dataset preview
-Consists of 42,306 movie plot summaries extracted from Wikipedia and aligned metadata extracted from Freebase.
+Consists of 42,306 movie plot summaries extracted from Wikipedia and aligned metadata extracted from Freebase. For more info click [here](http://www.cs.cmu.edu/~ark/personas/)
 
 ### Discription - Steps
 * Convert corpus to TF-IDF representation. (Term Frequency–Inverse Document Frequency is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.)
