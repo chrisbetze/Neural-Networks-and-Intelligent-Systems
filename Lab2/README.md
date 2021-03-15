@@ -26,7 +26,7 @@ Input movie: "The Ward", in categories ["Thriller", "Psychological thriller", "H
 <br>We make a two-dimensional map (grid), where movies of the dataset displayed in a spatially coherent way in terms of their content and their genre.
 
 ### Discription - Steps
-* Creating dataset: Each film is represented in the Vector Space Model by the features of TF-IDF and its genres.
+* Creating the dataset: Each film is represented in the Vector Space Model by the features of TF-IDF and its genres.
 * Training the Self-Organizing Map (SOM) using [Somoclu](https://somoclu.readthedocs.io/en/stable/index.html) library.
 * Clustering using k-Means scikit-learn algorithm.
 * SOM visualization using the Unified Distance Matrix (U-matrix).
