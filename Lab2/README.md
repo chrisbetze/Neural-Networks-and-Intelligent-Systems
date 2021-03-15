@@ -30,4 +30,7 @@ Input movie: "The Ward", in categories ["Thriller", "Psychological thriller", "H
 * Training the Self-Organizing Map (SOM) using [Somoclu](https://somoclu.readthedocs.io/en/stable/index.html) library.
 * Clustering using k-Means scikit-learn algorithm.
 * SOM visualization using the Unified Distance Matrix (U-matrix).
-* SOM optimization using different number of neurons and clusters.
+* SOM optimization using different numbers of neurons (grid size) and clusters.
+
+### Results - Semantic Interpretation of Clusters
+For the final-optimal SOM produced for our dataset, we make data exploration for clusters which have topological relevance to surrounding areas. We also study the topological properties of SOM and whether or not they have incorporated semantic information about movies, through TF-IDF representation and genres.
