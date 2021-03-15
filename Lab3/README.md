@@ -24,7 +24,8 @@ We improve the classification results, experimenting with some techniques and pa
 * Data augmentation (Rotation, Flip, Zoom, Contrast, etc)
 * Size of input image (32x32, 96x96, 128x128, etc)
 * Freezing / Unfreezing layers
-* Dropout (regularization)
-* Parameters such us learning rate, batch size, optimizers
+* Dropout (Regularization)
+* Early Stopping
+* Parameters, such us: learning rate, batch size, optimizers
 ## Results
 The final optimal network model resulted from the pre-trained model DenseNet121. This is a network in which, each layer is connected to all the followings. After the preprocessing and the optimization, we achieve an accuracy of 92% in 20 classes and 84% in 80 classes.
