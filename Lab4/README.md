@@ -33,4 +33,4 @@ We study three deep reinforcement learning algorithms that are implemented in th
 The best evaluation reward, achieved with DQN algorithm in Deterministic-v4 environment, is 4396 (±963).
 
 ## Video
-To watch the video with the optimal agent click [here](Lab4/MsPacman_DQN.mp4)
+To watch the video with the optimal agent click [here](https://github.com/chrisbetze/Neural-Networks-and-Intelligent-Systems/blob/2b004e21bcc27da96afa3405624d4cd63d56df84/Lab4/MsPacman_DQN.mp4)
