@@ -16,7 +16,7 @@ We study four different environments:
 * Empty-v4: The action is randomly selected every 2 or 4 frames (Without thoughtfulness)
 
 ## Algorithms
-We study three deep reinforcement learning algorithms that are implemented in the Stable Baselines3 project:
+We study three deep reinforcement learning algorithms that are implemented in the Stable Baselines3 project and support discrete actions:
 * A2C: Advantage Actor Critic
 * DQN: Deep Q-Networks
 * PPO: Proximal Policy Optimization
