@@ -23,10 +23,10 @@ We study three deep reinforcement learning algorithms that are implemented in th
 
 ## Description - Steps
 * We start with a random agent (without learning).
-* We continue applying the above algorithms.
-* We use the TensorBoard with the ngrok to keep track of mean episode length and mean reward.
-* We choose the environment and the algoithm that achieve the best reward.
+* We continue applying the above algorithms in all different environments.
+* We use the TensorBoard with the ngrok service to keep track of mean episode length and mean reward.
+* We choose the environment and the algoithm that achieve the best evaluation reward.
 * We optimize the best pair (env-algo), by modifying some parameteres of the [SB3 documentation](https://stable-baselines3.readthedocs.io/en/master/modules/dqn.html).
 
 ## Results
-The best reward, achieved with DQN algorithm in Deterministic-v4 environment, is 4396 (±963).
+The best evaluation reward, achieved with DQN algorithm in Deterministic-v4 environment, is 4396 (±963).
