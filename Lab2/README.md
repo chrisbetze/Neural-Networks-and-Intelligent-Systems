@@ -22,7 +22,7 @@ Input movie: "The Ward", in categories ["Thriller", "Psychological thriller", "H
 ```
 
 ## Application 2: Topological and semantic representation of movies using Self-Organizing Map
-We make a two-dimensional map (grid), where movies of the dataset displayed in a spatially coherent way in terms of their content and their genre.
+We make a two-dimensional map (grid), where movies of the dataset displayed in a spatially coherent way in terms of their content and their genre.<br>
 ![68747470733a2f2f692e696d6775722e636f6d2f5a3446647572442e6a7067](https://user-images.githubusercontent.com/50949470/111079327-3b860600-8502-11eb-9071-22d09e94ee57.jpg)
 
 ### Discription - Steps
