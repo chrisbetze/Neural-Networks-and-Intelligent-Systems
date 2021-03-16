@@ -28,4 +28,4 @@ We improve the classification results, experimenting with some techniques and pa
 * Early Stopping
 * Parameters, such us: learning rate, batch size, optimizers
 ## Results
-The final optimal network model resulted from the pre-trained model DenseNet121. This is a network in which, each layer is connected to all the followings. After the preprocessing and the optimization, we achieve an accuracy of 92% in 20 classes and 84% in 80 classes.
+The final optimal network model resulted with transfer learning from the pre-trained model DenseNet121. This is a network in which, each layer is connected to all the followings. Having run 100 epochs, after the preprocessing and the optimization, we achieve an accuracy of 92% in 20 classes and 84% in 80 classes.
