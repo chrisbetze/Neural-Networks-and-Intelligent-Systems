@@ -1,3 +1,6 @@
+
+https://user-images.githubusercontent.com/50949470/111331974-13b9ae00-867a-11eb-9d76-370c050c62c8.mp4
+
 # Deep Reinforcement Learning
 The aim of the exercise is to optimize deep reinforcement learning algorithms in "MsPacman" Atari game.<br>
 ![220px-Mspacman](https://user-images.githubusercontent.com/50949470/111311155-8ae54700-8666-11eb-82b0-22a60935f21d.png)
