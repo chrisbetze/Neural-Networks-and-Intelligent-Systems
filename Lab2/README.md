@@ -1,7 +1,7 @@
 # Unsupervised Learning
 ## Application 1: Content-based film recommendation system
+Based on what user like, the algorithm will simply pick items with similar content to recommend him.
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/50949470/111079410-97508f00-8502-11eb-9dc5-4d55c79ff454.png)
-<br> Based on what user like, the algorithm will simply pick items with similar content to recommend him.
 
 ### Dataset preview
 Consists of 42,306 movie plot summaries extracted from Wikipedia and aligned metadata extracted from Freebase. For more info click [here](http://www.cs.cmu.edu/~ark/personas/)
@@ -22,8 +22,8 @@ Input movie: "The Ward", in categories ["Thriller", "Psychological thriller", "H
 ```
 
 ## Application 2: Topological and semantic representation of movies using Self-Organizing Map
+We make a two-dimensional map (grid), where movies of the dataset displayed in a spatially coherent way in terms of their content and their genre.
 ![68747470733a2f2f692e696d6775722e636f6d2f5a3446647572442e6a7067](https://user-images.githubusercontent.com/50949470/111079327-3b860600-8502-11eb-9071-22d09e94ee57.jpg)
-<br>We make a two-dimensional map (grid), where movies of the dataset displayed in a spatially coherent way in terms of their content and their genre.
 
 ### Discription - Steps
 * Creating the dataset: Each film is represented in the Vector Space Model by the features of TF-IDF and its genres.
