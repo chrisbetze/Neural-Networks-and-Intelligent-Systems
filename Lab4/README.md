@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning
 The aim of the exercise is to optimize deep reinforcement learning algorithms in "MsPacman" Atari game.<br>
-![220px-Mspacman](https://user-images.githubusercontent.com/50949470/111311155-8ae54700-8666-11eb-82b0-22a60935f21d.png)
+![Paid_195_com NamcoNetworks MsPacMan](https://user-images.githubusercontent.com/50949470/111445318-f89b7c80-8713-11eb-81ee-5b0792498258.jpg)
 
 ## Game Description
 This game is similar to the classic Pac-Man. The agent earns points by eating "fruits" and avoiding some monsters. 
