@@ -30,7 +30,7 @@ The number is a code for the following classes:
 6) mixture class (all types present)
 7) very damp grey soil
 
-NB. There are no examples with class 6 in this dataset. For more information visit [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Statlog+%28Landsat+Satellite%29)
+NB. There are no examples with class 6 in this dataset. For more information visit [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Statlog+%28Landsat+Satellite%29).
 ### Preprocessing
 No missing values and all features are numeric.
 ### Classification
